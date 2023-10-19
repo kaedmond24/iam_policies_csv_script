@@ -39,10 +39,10 @@ Repository for Python AWS IAM Policy to CSV ETL Script: Extract AWS IAM Policies
 
 ### Script Logic:
 
-1. TBA
+1. Setup Boto3 connection using `client`, variable to setup `boto.client()` method, and `response`, variable used to return boto.list_policies() method data, to retrieve AWS account IAM policies data.
 
-2. TBA
+2. The CSV file, filename (`aws_policies.csv`), and headers (`Policy Name`, `PolicyId`, `Arn`) are created.
 
-3. TBA
+3. A `for loop` is run to iterate through the `response` returned data and write each policy to a row in the `aws_policies.csv` file.
 
-4. TBA
+4. Notify the user that the CSV file was created.
