@@ -2,8 +2,10 @@
 # Created by Kevin Edmond.
 #
 #
-#
-#
+# This script is used to extract IAM policies from the configured AWS account and stores the
+# data in a new CSV file named 'aws_policies.csv'. The retrieved policy data is filtered to
+# only return attached permissions policies. Data returned from the query is written to the
+# CSV file using the policyName, policyId, Arn fields extracted from the dataset.
 #
 #
 # Please read README.md for full notes on script.
