@@ -1,10 +1,10 @@
-# Python NBA Player API to CSV Script
+# Python AWS IAM Policy to CSV ETL Script
 
 ---
 
 Created By Kevin Edmond
 
-Repository for Python NBA Player API to CSV Script: Extract NBA player data and format into a CSV File
+Repository for Python AWS IAM Policy to CSV ETL Script: Extract AWS IAM Policies and format into a CSV File
 
 ### Instructions:
 
